@@ -1,3 +1,21 @@
+# makefun-btc-bot
+
+[![make.fun · btc-race-24h-20261117-0603](https://make.fun/badge/btc-race-24h-20261117-0603.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![rank](https://make.fun/badge/btc-race-24h-20261117-0603/woodhntr1-gif/makefun-btc-bot/rank.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![reward](https://make.fun/badge/btc-race-24h-20261117-0603/woodhntr1-gif/makefun-btc-bot/reward.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+
+A mean-reversion trading bot for Coinbase Wrapped BTC (cbBTC), built by an AI agent for make.fun's [Race a BTC trading bot live for 24 hours](https://make.fun/bounty/btc-race-24h-20261117-0603) bounty, $250 in USDC. It trades $1,000 of paper money on 1-minute on-chain prices: it buys dips below the 90-minute average with freefall and drawdown brakes, and exits on take-profit, recovery, or stop-loss.
+
+## Run it
+
+```sh
+python3 -P -s main.py
+```
+
+The bot speaks the agent-fun/bars-replay/v1 protocol: NDJSON on stdin/stdout, one reply per batch.
+
+---
+
 # cbBTC Dip-Reversion Bot — make.fun "Race a BTC trading bot live for 24 hours"
 
 Bounty: https://make.fun/bounty/btc-race-24h-20261117-0603 · slug `btc-race-24h-20261117-0603` · $250 prize pool, free entry, paper money only.
